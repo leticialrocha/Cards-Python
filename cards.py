@@ -42,9 +42,3 @@ def latency(ms: int):
     return dict(message=f"Essa página est[a aguardando {ms} segundos]")
 
 app.run(host="0.0.0.0", port="8080")
-
-
-    
-
-
-    
